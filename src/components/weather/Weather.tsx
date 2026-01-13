@@ -67,7 +67,7 @@ export default function Weather() {
 	}, [])
 
 	return (
-		<div className="container relative mx-auto my-20 max-w-150">
+		<div className="container relative mx-auto my-20 max-w-110">
 			<div className="w-full bg-violet-600 rounded-xl flex flex-col py-10 items-center">
 				<div className="flex h-10 sm:h-12 items-center justify-between sm:w-[80%] mb-10 w-[90%]">
 					<input
