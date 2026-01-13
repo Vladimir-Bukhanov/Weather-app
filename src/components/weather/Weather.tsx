@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { CiSearch } from 'react-icons/ci'
+import type { IAllIcons } from '../../types/icons.type'
 import type { IWeather, IWeatherData } from '../../types/weatherDataTypes'
 import clear from '/clear.png'
 import cloudy from '/cloudy.png'
@@ -14,7 +15,7 @@ export default function Weather() {
 
 	const inputRef = useRef<HTMLInputElement>(null)
 
-	const allIcons = {
+	const allIcons: IAllIcons = {
 		'01d': clear,
 		'01n': clear,
 		'02d': cloudy,
